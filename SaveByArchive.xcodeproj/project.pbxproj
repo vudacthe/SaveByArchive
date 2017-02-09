@@ -13,6 +13,8 @@
 		180DF45D1E48136600CA1F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180DF45C1E48136600CA1F0F /* Assets.xcassets */; };
 		180DF4601E48136600CA1F0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180DF45E1E48136600CA1F0F /* LaunchScreen.storyboard */; };
 		180DF46B1E48136600CA1F0F /* SaveByArchiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180DF46A1E48136600CA1F0F /* SaveByArchiveTests.swift */; };
+		181A8C271E481B95003A5AB7 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181A8C261E481B95003A5AB7 /* Person.swift */; };
+		18BB91171E4BFBC6000D7285 /* PersonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BB91161E4BFBC6000D7285 /* PersonTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		180DF4661E48136600CA1F0F /* SaveByArchiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaveByArchiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		180DF46A1E48136600CA1F0F /* SaveByArchiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveByArchiveTests.swift; sourceTree = "<group>"; };
 		180DF46C1E48136600CA1F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181A8C261E481B95003A5AB7 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		18BB91161E4BFBC6000D7285 /* PersonTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				180DF45C1E48136600CA1F0F /* Assets.xcassets */,
 				180DF45E1E48136600CA1F0F /* LaunchScreen.storyboard */,
 				180DF4611E48136600CA1F0F /* Info.plist */,
+				181A8C261E481B95003A5AB7 /* Person.swift */,
+				18BB91161E4BFBC6000D7285 /* PersonTableViewController.swift */,
 			);
 			path = SaveByArchive;
 			sourceTree = "<group>";
@@ -199,6 +205,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BB91171E4BFBC6000D7285 /* PersonTableViewController.swift in Sources */,
+				181A8C271E481B95003A5AB7 /* Person.swift in Sources */,
 				180DF4581E48136600CA1F0F /* ViewController.swift in Sources */,
 				180DF4561E48136600CA1F0F /* AppDelegate.swift in Sources */,
 			);
@@ -406,6 +414,7 @@
 				180DF4711E48136600CA1F0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		180DF4721E48136600CA1F0F /* Build configuration list for PBXNativeTarget "SaveByArchiveTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +423,7 @@
 				180DF4741E48136600CA1F0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
